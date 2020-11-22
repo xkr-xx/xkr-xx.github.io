@@ -1,0 +1,94 @@
+.insta-container{
+    border: 3px solid black;
+    width: 700px;
+    height: 800px;
+    background-color: #fafafa;
+    margin: 0px auto;
+}
+
+/* 네브바 / 주석 단축키 (com+/) */
+.nav-bar{
+    border: 3px solid gray;
+    background-color: white;
+}
+.insta-logo{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+.insta-search{
+    position: relative;
+    left: 70px;
+    bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.account{
+    float: right;
+    margin: 15px;
+}
+.login, .sign-up {
+    display: inline-block;
+}
+.login{
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sign-up{
+    color: skyblue;
+}
+
+/* 유저정보 */
+.user{
+    /* border: 3px solid black; */
+    margin-bottom: -140px;
+}
+.user-img{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+.user-info{
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+}
+.user-name{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.user-item{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.follow-btn{
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* post */
+.post-container{
+    border-top: 3px solid gray;
+    text-align: center;
+}
+.post{
+    display: inline-block;
+    margin: 10px;
+}
+
+/* 포스팅사진 */
+.insta-photo{
+    width: 180px;
+    height: 180px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.insta-photo:hover{
+    opacity: 0.9;
+    filter: brightness(50%)
+}
